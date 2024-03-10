@@ -16,3 +16,6 @@ struct SwiftUIView: View {
 #Preview {
     SwiftUIView()
 }
+extension SwiftUIView {
+    
+}

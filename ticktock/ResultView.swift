@@ -7,12 +7,31 @@
 
 import SwiftUI
 
-struct ResultView: View {
+struct ShowResultView: View {
+    var theWinnerIs:String?
+    var isDraw:String?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+          
+            
+            
+            if let result = theWinnerIs {
+                Text("Is the winner is \(result)").font(.title2).bold()
+            }else{
+                Text("The game is no over stil")
+            }
+            
+        }
     }
 }
 
 #Preview {
-    ResultView()
+    ShowResultView(theWinnerIs:"prueba")
+}
+
+struct ShowDraw:View {
+    var body: some View {
+        Text("No have a Winner")
+    }
 }

@@ -14,6 +14,10 @@
 		C28820262B9C1FAF00863C82 /* ticktockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28820252B9C1FAF00863C82 /* ticktockTests.swift */; };
 		C28820302B9C1FAF00863C82 /* ticktockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288202F2B9C1FAF00863C82 /* ticktockUITests.swift */; };
 		C28820322B9C1FAF00863C82 /* ticktockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28820312B9C1FAF00863C82 /* ticktockUITestsLaunchTests.swift */; };
+		C28820442B9D020700863C82 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28820432B9D020700863C82 /* CustomButton.swift */; };
+		C28820462B9D0BC900863C82 /* PlayerVSCPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28820452B9D0BC900863C82 /* PlayerVSCPU.swift */; };
+		C28820482B9D12F500863C82 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28820472B9D12F500863C82 /* ResultView.swift */; };
+		C288204A2B9D20EA00863C82 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28820492B9D20EA00863C82 /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		C288202B2B9C1FAF00863C82 /* ticktockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticktockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C288202F2B9C1FAF00863C82 /* ticktockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticktockUITests.swift; sourceTree = "<group>"; };
 		C28820312B9C1FAF00863C82 /* ticktockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticktockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C28820432B9D020700863C82 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C28820452B9D0BC900863C82 /* PlayerVSCPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVSCPU.swift; sourceTree = "<group>"; };
+		C28820472B9D12F500863C82 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		C28820492B9D20EA00863C82 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,11 @@
 		C28820132B9C1FAD00863C82 /* ticktock */ = {
 			isa = PBXGroup;
 			children = (
+				C28820422B9D01DC00863C82 /* UI */,
 				C28820142B9C1FAD00863C82 /* ticktockApp.swift */,
 				C28820162B9C1FAD00863C82 /* ContentView.swift */,
+				C28820452B9D0BC900863C82 /* PlayerVSCPU.swift */,
+				C28820472B9D12F500863C82 /* ResultView.swift */,
 				C28820182B9C1FAF00863C82 /* Assets.xcassets */,
 				C288201A2B9C1FAF00863C82 /* Preview Content */,
 			);
@@ -125,6 +136,15 @@
 				C28820312B9C1FAF00863C82 /* ticktockUITestsLaunchTests.swift */,
 			);
 			path = ticktockUITests;
+			sourceTree = "<group>";
+		};
+		C28820422B9D01DC00863C82 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C28820492B9D20EA00863C82 /* StartView.swift */,
+				C28820432B9D020700863C82 /* CustomButton.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +279,10 @@
 			files = (
 				C28820172B9C1FAD00863C82 /* ContentView.swift in Sources */,
 				C28820152B9C1FAD00863C82 /* ticktockApp.swift in Sources */,
+				C28820482B9D12F500863C82 /* ResultView.swift in Sources */,
+				C288204A2B9D20EA00863C82 /* StartView.swift in Sources */,
+				C28820462B9D0BC900863C82 /* PlayerVSCPU.swift in Sources */,
+				C28820442B9D020700863C82 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
